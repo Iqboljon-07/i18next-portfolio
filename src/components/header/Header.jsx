@@ -12,7 +12,7 @@ function Header() {
       <header className={`${pathname === "/partner" ? "grey" : ""}`}>
         <div className="header_item">
           <NavLink to="/">{t("home")} </NavLink>
-          <NavLink to="/product">{t("product")} </NavLink>
+
           <NavLink to="/developer">{t("developer")} </NavLink>
           <NavLink to="/partner">{t("partners")} </NavLink>
 
